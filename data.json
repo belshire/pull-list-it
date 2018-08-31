@@ -1,0 +1,44 @@
+{
+  "publishers": [
+    {
+      "id": 1,
+      "name": "Marvel"
+    },
+    {
+      "id": 2,
+      "name": "DC"
+    }
+  ],
+  "comics": [
+    {
+      "id": 1,
+      "name": "Ms. Marvel",
+      "publisherId": 1
+    },
+    {
+      "id": 2,
+      "name": "Batman",
+      "publisherId": 2
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "publisherId": 2
+    },
+    {
+      "id": 4,
+      "name": "The Flash",
+      "publisherId": 2
+    },
+    {
+      "id": 5,
+      "name": "X-Men",
+      "publisherId": 1
+    },
+    {
+      "id": 6,
+      "name": "Batgirl",
+      "publisherId": 2
+    }
+  ]
+}
