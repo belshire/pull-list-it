@@ -2,17 +2,19 @@
   "name": "pull-list-it",
   "version": "1.0.0",
   "description": "Maintain your comic book pull list.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Blake Elshire",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "moment": "^2.22.2",
-    "mysql": "^2.16.0"
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
