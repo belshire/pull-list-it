@@ -1,7 +1,10 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const Publisher = sequelize.define('Publisher', {
-    name: DataTypes.STRING
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
   }, {});
   Publisher.associate = function(models) {
     // associations can be defined here

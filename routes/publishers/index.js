@@ -16,8 +16,8 @@ publishers.post('/', (req, res) => {
         .create({
             name: req.body.name,
         })
-        .then(publisher => res.status(201).send(publisher))
-        .then(error => res.status(400).send(error));
+        .then(new_publisher => res.status(201).send(new_publisher))
+        .catch(error => res.status(400).send(error));
 });
 
 module.exports = publishers;

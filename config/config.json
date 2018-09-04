@@ -4,6 +4,7 @@
     "password": "newPOI348",
     "database": "pull-list-it_develop",
     "host": "127.0.0.1",
+    "socketPath": "/tmp/mysql.sock",
     "dialect": "mysql"
   },
   "test": {
@@ -11,6 +12,7 @@
     "password": "newPOI348",
     "database": "pull-list-it_test",
     "host": "127.0.0.1",
+    "socketPath": "/tmp/mysql.sock",
     "dialect": "mysql"
   },
   "production": {
@@ -18,6 +20,7 @@
     "password": "newPOI348",
     "database": "pull-list-it_production",
     "host": "127.0.0.1",
+    "socketPath": "/tmp/mysql.sock",
     "dialect": "mysql"
   }
 }
