@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "newPOI348",
+    "database": "pull-list-it_develop",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "newPOI348",
+    "database": "pull-list-it_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "newPOI348",
+    "database": "pull-list-it_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

@@ -1,4 +1,4 @@
-const data = require('../../data.json');
+const publisher = require('../../controllers').publisher;
 
 module.exports = (req, res) => {
     const publishers = data.publishers;

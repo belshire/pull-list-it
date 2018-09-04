@@ -1,6 +1,6 @@
 const routes = require('express').Router();
 const publishers = require('./publishers');
-const comics = require('./comics');
+// const comics = require('./comics');
 
 routes.use('/publisher', publishers);
 
