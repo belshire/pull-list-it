@@ -1,5 +1,5 @@
 const publishers = require('express').Router();
-const Publisher = require('../../models').Publisher;
+const Publisher = require('../models').Publisher;
 
 publishers.get('/', (req, res) => {
     Publisher.findAll().then(publishers => res.json(publishers));
@@ -7,7 +7,7 @@ publishers.get('/', (req, res) => {
 
 publishers.get('/:publisherId', (req, res) => {
     if (req.params.publisherId) {
-        Publisher.findById(req.publisherId).then(publisher => res.json(publisher));
+        Publisher.findById(req.params.publisherId).then(publisher => res.json(publisher));
     }
 });
 
